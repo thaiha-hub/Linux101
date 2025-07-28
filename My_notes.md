@@ -33,8 +33,39 @@
 * **/tmp**	The operating system and many programs use this directory to store temporary files. This directory is generally cleared upon system boot and may be deleted at other times without any warning.
 * **/usr**	Contains executables, libraries, man files, etc.
 * **/var**	This directory contains variable data files such as log files, email in-boxes, web application related files, cron files, and more.
+
+# Promt
+The PS1 variable in Linux System controls how command promt looks in the terminal.  
+By customise the PS1 variable, one can change the promt to display tailored information such as username, colors, special characters, etc.  
+
+One can customize the PS1 to show other useful details such as IP-address, date, time, success or failure of the last command, etc. --> Especially useful in penetration test! (security) coz it helps to keep track of one's actions more effectively.  
+
+~/.bash_history   shows the list of previously used commands.  
+
+the promt can be customized using special characters and variables the shell's configuration file .bashrc
+
 ## ls
 ls --color=auto/always/never   display outputs in different colors 
 ls /                           list files and directories under / aka the root directory of the file system
 
-## 
+## apropos 
+Search the description for a given keyword
+
+# System information
+
+	Displays current username.
+* **id**	Returns users identity
+* **hostname**	Sets or prints the name of current host system.
+* **uname**	    Prints basic information about the operating system name and system hardware.
+* **pwd** 	Returns working directory name.
+* ifconfig	The ifconfig utility is used to assign or to view an address to a network interface and/or configure network interface parameters.  * **ip**	Ip is a utility to show or manipulate routing, network devices, interfaces and tunnels.
+* **netstat**	Shows network status.
+* **ss** Another utility to investigate sockets.
+* ps	Shows process status.
+* who	Displays who is logged in.
+* env	Prints environment or sets and executes command.
+* lsblk	Lists block devices.
+* lsusb	Lists USB devices
+* lsof	Lists opened files.
+* lspci	Lists PCI devices.
+
