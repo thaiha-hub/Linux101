@@ -44,10 +44,6 @@ One can customize the PS1 to show other useful details such as IP-address, date,
 
 the promt can be customized using special characters and variables the shell's configuration file .bashrc
 
-## ls
-ls --color=auto/always/never   display outputs in different colors 
-ls /                           list files and directories under / aka the root directory of the file system
-
 ## apropos 
 Search the description for a given keyword
 
