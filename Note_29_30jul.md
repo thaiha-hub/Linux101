@@ -12,6 +12,16 @@ env | grep MAIL           # check the Environment variable and look for MAIL, MA
 
 # Bash scripting
 
+$# Number of arguments given
+$0 the script itself
+$1 the first argument
+$2 the second argument (if has)  
+## Shebang 
+The Shebang line is always at the top of a script.  
+It begins with #! and is followed by the path to a specified interpreter (/bin/bash) with which the script is executed.  
+* with python 	#!/usr/bin/env python
+* with perl 	#!/usr/bin/env perl
+
 Eg. CIDR.sh  
 ```bash
 #!/bin/bash
